@@ -11,6 +11,11 @@ interface 介面名稱{
 ## 基本Java 程式語法
 * 資料型態(int、String)、if...else、for loop、method
 
+## Class 類別
+* 定義物件的一種型態，沒有實體
+  * 屬性
+  * 方法 
+
 ## Java 三大特性
 * 繼承(inherit)、封裝(encapsulate)、多型(polymorphism)
 * 多型(polymorphism)
