@@ -11,9 +11,17 @@ interface 介面名稱{
 ## 基本Java 程式語法
 * 資料型態(int、String)、if...else、for loop、method
 
+
+## Java Variable
+* 可自己定義
+* 可代表為一個數值、一串文字或一個物件
+* 習慣變數都是小寫
+* Java 變數需要宣告變數型態
+
 ## Class 類別
 * 定義物件的一種型態，沒有實體
   * 屬性
+    可提供給其他物件使用且不用給初始值
   * 方法 
     一切從main開始
 
@@ -81,6 +89,4 @@ class Test {
 
 ## 例外處理
 * Exception、try-catch、throws
-
-## Spring Boot 框架
 
