@@ -15,6 +15,7 @@ interface 介面名稱{
 * 定義物件的一種型態，沒有實體
   * 屬性
   * 方法 
+    一切從main開始
 
 ## Java 三大特性
 * 繼承(inherit)、封裝(encapsulate)、多型(polymorphism)
