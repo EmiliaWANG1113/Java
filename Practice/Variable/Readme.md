@@ -18,6 +18,17 @@
 
 
 
+| 基本資料型態      | 類別 |
+| ----------- | ----------- |
+| byte   | Byte  |
+| short   | Short  | 
+| int   | Integer  |
+| long   | Long  | 
+| float    | Float  |
+| double   | Double  | 
+| char   | Character  |
+| boolean   | Boolean  | 
+
 ## Overflow 溢值
 * 儲存值超過型態的範圍
 
