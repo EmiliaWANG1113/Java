@@ -41,3 +41,32 @@
 int i = 10;
 long l = (long)i;
 ```
+
+## 包裹型態（Wrapper Types）
+* 將基本資料型態包裝成物件
+
+```java
+Double d = new Double(3.14);
+```
+
+## 物件之間轉換
+* 將基本資料型態轉換為物件
+
+```java
+double d1 = 3.14;
+Double d2 = Double.valueOf(d1);
+```
+
+
+## ⾃動裝箱(autoboxing, unboxing)
+* 編譯器⾃動將基本資料型態轉換為物件
+
+```java
+//autoboxing
+double d1 = 3.14;
+Double d2 = d1;
+
+//unboxing
+Double d2 = new Double(3.14);
+double d1 = d2;
+```
