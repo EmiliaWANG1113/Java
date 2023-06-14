@@ -57,6 +57,22 @@ double d1 = 3.14;
 Double d2 = Double.valueOf(d1);
 ```
 
+## 基本資料型態轉字串
+* 將基本資料型態轉換為物件
+
+```java
+double d9 = 3.14;
+String d9s = String.valueOf(d9);
+```
+
+## 字串轉基本資料型態
+* parseDouble()
+* parseInt()
+
+```java
+Double d =
+Double.parseDouble("3.14");
+```
 
 ## ⾃動裝箱(autoboxing, unboxing)
 * 編譯器⾃動將基本資料型態轉換為物件
