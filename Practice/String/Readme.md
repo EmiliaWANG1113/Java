@@ -16,3 +16,26 @@ String[] sArray = str.split(“,”);
 String str = “abcdef”;
 str.substring(0,4);
 ```
+
+## 回傳第⼀個⼦字串的索引值(indexOf(String str))
+* 依據指定的位置取回⼦字串
+
+```java
+String str = “aaaaa”;
+indexOf(“a”);
+```
+
+## 回傳最後⼀個⼦字串的索引值(lastIndexOf(String str))
+* 依據指定的位置取回⼦字串
+
+```java
+String str = “aaaaa”;
+lastIndexOf(“a”);
+```
+
+## 是否包含某⼀個字串(contains(CharSequence s))
+
+```java
+String str = “abcde”;
+str.contains(“c”);
+```
