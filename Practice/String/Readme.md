@@ -39,3 +39,32 @@ lastIndexOf(“a”);
 String str = “abcde”;
 str.contains(“c”);
 ```
+
+## 將字串中的a替換成b(replace(CharSequence a, CharSequence b))
+
+```java
+String str = “abcd”;
+str.replace(“a”,”b”);
+```
+
+## 正規表⽰法(Regular Expression)
+* 使⽤單個字串來描述、符合⼀系列某個句法規則的字串
+* java.util.regex.Pattern
+
+```java
+\d
+String reg = “1234”;
+[a-zA-Z]
+String str = “abcABC”;
+```
+
+## 使⽤正規表⽰法替換掉所有的字串(replaceAll(String regex, String replacement))
+
+```java
+String str = “abc123”;
+str.replaceAll(“\
+\d”,”def”);
+```
+
+
+
