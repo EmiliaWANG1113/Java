@@ -66,5 +66,12 @@ str.replaceAll(“\
 \d”,”def”);
 ```
 
+## 判斷字串是否相等(equals)
 
+```java
+String str1 = “abc”;
+String str1 = “def”;
+
+System.out.println(str1.equals(str2));
+```
 
