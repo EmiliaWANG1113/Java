@@ -65,6 +65,13 @@ double d9 = 3.14;
 String d9s = String.valueOf(d9);
 ```
 
+## 指定字串中的位元
+
+```java
+String str = “abc”;
+str.charAt(1);
+```
+
 ## 字串轉基本資料型態
 * parseDouble()
 * parseInt()
